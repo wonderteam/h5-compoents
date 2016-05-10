@@ -72,6 +72,9 @@ new Carousel({
 ## SWIPE （手滑）模式
 ![310品牌馆](https://s1.wandougongzhu.cn/s/67/swip_ba1d0f.png)
 当需要显示的内容比容器大的时候，这种模式就很方便了。比如上图中，商品的数目比较多，在一行只能看到2个半，需要看到后面的就需要水平滑动。
+>**<span style="color:red">\*需要注意的地方</span>**
+>
+><span style="color:red">如果滑动内容的大小有变化，需要额外调用一次 resize() 方法</span>
 
 #### 默认配置参数
 
